@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.BtnBottomView" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="btnBottomGroup" left="0" right="0" bottom="2" top="832">
+		<ViewModel:BtnBottomItemVM id="btnProtagonist" x="45" y="3" width="134" height="60" 
+		                           btnWordSource="zi_zhujue_huang" btnWordSourceDown="zi_zhujue_bai" skinName="View.BtnBottomItem"/>
+		<ViewModel:BtnBottomItemVM id="btnBosomFriend" x="85" y="43" width="134" height="60" 
+		                           btnWordSource="zi_zhiyou_huang" btnWordSourceDown="zi_zhiyou_bai" skinName="View.BtnBottomItem"/>
+		<ViewModel:BtnBottomItemVM id="btnArtifact" x="65" y="23" width="134" height="60" 
+		                           btnWordSource="zi_shenqi_huang" btnWordSourceDown="zi_shenqi_bai" skinName="View.BtnBottomItem"/>
+		<ViewModel:BtnBottomItemVM id="btnMall" x="75" y="33" width="134" height="60" 
+		                           btnWordSource="zi_shangcheng_huang" btnWordSourceDown="zi_shangcheng_bai" skinName="View.BtnBottomItem"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="1" paddingBottom="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

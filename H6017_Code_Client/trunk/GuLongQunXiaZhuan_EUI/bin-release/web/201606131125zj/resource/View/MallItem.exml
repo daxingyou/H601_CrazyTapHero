@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.MallItem" width="562" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="bg_huadongtiao" scale9Grid="9,9,12,11"/>
+		<e:Group id="goods" top="0" bottom="0" width="400" left="0" touchEnabled="false">
+			<e:Image id="goodsIcon" height="66" width="68" horizontalCenter="-152" touchEnabled="false" source="skill_01" verticalCenter="0"/>
+			<e:Label id="goodsName" text="物品名称" size="20" fontFamily="黑体" touchEnabled="false" y="5" left="94"/>
+			<e:Label id="goodsLevel" left="334" text="Lv.1" fontFamily="黑体" size="20" touchEnabled="false" x="10" verticalCenter="-22" visible="false"/>
+			<e:Label id="goodsDesOne" fontFamily="黑体" size="20" width="292" wordWrap="true" touchEnabled="false" x="94" y="30"/>
+			<e:Label id="goodsDesTwo" wordWrap="true" fontFamily="黑体" width="292" touchEnabled="false" size="20" x="94" y="50"/>
+		</e:Group>
+		<ViewModel:BtnShareVM id="goodsBtn" label="按钮" width="136" height="66" horizontalCenter="200" skinName="View.BtnShareItem"/>
+		<e:Image id="finishImage" source="MainGame_json.icon_huodesuoyoushenqi" x="335" y="9" visible="false"/>
+		
+	</e:Group>
+</e:Skin>

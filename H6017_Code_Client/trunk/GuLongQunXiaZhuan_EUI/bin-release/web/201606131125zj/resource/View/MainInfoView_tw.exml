@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.MainInfoView_tw" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*">
+	<e:Group left="0" right="0" top="613" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="1,1,2,258" source="bg_02"/>
+		<e:Image source="bg_02_diwen2" x="0" fillMode="repeat" width="598" bottom="0" alpha="0.3"/>
+		<e:Label id="currentDps" text="9.28aa" fontFamily="黑体" size="34" horizontalCenter="-169" verticalCenter="-89.5"/>
+		<e:Label text="當前總秒傷" size="17" fontFamily="黑体" horizontalCenter="-169" verticalCenter="-52"/>
+		<e:Label verticalCenter="-11" size="17" text="點擊技能圖標使用元寶清除CD" fontFamily="黑体" y="10" horizontalCenter="0" textColor="0xFFF681"/>
+		<e:Image source="dps_muqian" horizontalCenter="-171" verticalCenter="-28"/>
+		<e:Label id="tapDps" text="3.28aa" size="28" fontFamily="黑体" left="301" verticalCenter="-91.5"/>
+		<e:Label id="friendDps" text="3.28aa" fontFamily="黑体" size="28" left="301" verticalCenter="-50.5"/>
+		<e:Label text="點擊總傷害" size="17" fontFamily="黑体" horizontalCenter="214" verticalCenter="-96"/>
+		<e:Label size="17" text="摯友總秒傷" fontFamily="黑体" right="41" verticalCenter="-52"/>
+		<e:Image source="dianjigongjili" horizontalCenter="117" verticalCenter="-71"/>
+		<e:Image source="dps_zhiyou" horizontalCenter="107" verticalCenter="-28"/>
+		<e:Group id="skillGroup" height="80" y="145" left="0" right="0">
+			<ViewModel:BtnActiveSkillVM label="按钮" skinName="View.BtnActiveSkillView" verticalCenter="0" x="27"/>
+			<ViewModel:BtnActiveSkillVM verticalCenter="0" label="按钮" skinName="View.BtnActiveSkillView" x="120" y="10"/>
+			<ViewModel:BtnActiveSkillVM y="20" verticalCenter="0" skinName="View.BtnActiveSkillView" label="按钮" x="213"/>
+			<ViewModel:BtnActiveSkillVM label="按钮" y="30" skinName="View.BtnActiveSkillView" verticalCenter="0" x="310"/>
+			<ViewModel:BtnActiveSkillVM verticalCenter="0" label="按钮" skinName="View.BtnActiveSkillView" y="40" x="403"/>
+			<ViewModel:BtnActiveSkillVM y="50" verticalCenter="0" skinName="View.BtnActiveSkillView" label="按钮" x="498"/>
+		</e:Group>
+		<e:Image source="dianjigongjili" horizontalCenter="117" verticalCenter="-72"/>
+	</e:Group>
+</e:Skin>

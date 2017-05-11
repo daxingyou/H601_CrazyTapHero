@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.DailyRechargeView_tw" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Group left="0" right="0" top="33" height="846">
+			<e:Image source="bg_tankuangda" left="0" right="0" top="0" bottom="0" scale9Grid="37,111,4,670"/>
+		</e:Group>
+		<e:Image source="bg_tankuangda_nei" scale9Grid="14,18,3,2" horizontalCenter="1" top="208" width="546" height="641"/>
+		<e:Label y="124" size="20" text="連續儲值時間：" fontFamily="黑体" x="45"/>
+		<e:Image source="bg_xiabiaoti" y="20" scale9Grid="25,2,2,36" width="274" horizontalCenter="0" height="55"/>
+		<e:Label id="continueTime" y="125" size="20" text="99天" fontFamily="黑体" x="183"/>
+		<e:Label y="95" size="20" text="活動時間：永久" fontFamily="黑体" x="45"/>
+		<ViewModel:CloseBtnVM id="closeBtn" label="按钮" skinName="View.CloseBtn" right="0" y="20"/>
+		<e:Image height="35" width="331" y="161" source="bg_erjitouxiang" scale9Grid="9,9,10,11" horizontalCenter="0.5"/>
+		<e:Image source="meirichongzhi" horizontalCenter="-2.5" y="26"/>
+		<e:Label y="168" size="20" text="每日儲值任意金額，即可領取獎勵!" fontFamily="黑体" textAlign="center" horizontalCenter="0"/>
+		<e:Scroller width="538" height="618" horizontalCenter="0" verticalCenter="81">
+			<e:Group id="listGroup" height="626">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="8"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<ViewModel:BtnShareVM id="rechargeBtn" label="按钮" skinName="View.BtnShareItem" verticalCenter="-342" horizontalCenter="194.5"/>
+	</e:Group>
+</e:Skin>

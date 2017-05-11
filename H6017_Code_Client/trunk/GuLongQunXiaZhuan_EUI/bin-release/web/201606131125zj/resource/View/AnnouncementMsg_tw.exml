@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.AnnouncementMsg_tw" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+	<e:Group width="510" height="800" horizontalCenter="0" y="60">
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Image source="bg_tankuangxiao_zhongjian" bottom="50" horizontalCenter="0" fillMode="repeat" height="700"/>
+			<e:Image source="bg_tankuangxiao_shangbian" horizontalCenter="0"/>
+			<e:Image source="bg_tankuangxiao_xiabian" bottom="0" horizontalCenter="0"/>
+			<e:Image source="bg_xiabiaoti" scale9Grid="25,4,2,33" width="270" y="-9" horizontalCenter="0"/>
+			<e:Image source="gonggao" y="-2" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group height="658" width="465" horizontalCenter="0" verticalCenter="-11">
+			<e:Image left="0" right="0" top="0" bottom="0" source="bg_tankuang_neihuabian" scale9Grid="29,31,14,13"/>
+			<e:Label id="noticeInfoTitle0" fontFamily="黑体" size="25" left="15" verticalCenter="-275.5" text="一、狂欢大礼包"/>
+			<e:Label id="activeTime0" fontFamily="黑体" size="25" verticalCenter="-210.5" left="15" text="活动时间："/>
+			<e:Label id="activeDetail0" fontFamily="黑体" size="25" verticalCenter="-171.5" left="15" text="活动内容："/>
+			<e:Label id="noticeInfoTitle1" fontFamily="黑体" size="25" verticalCenter="-95.5" left="15" text="二、抽卡活动"/>
+			<e:Label id="activeTime1" fontFamily="黑体" verticalCenter="-30.5" size="25" y="10" left="15" text="活动时间："/>
+			<e:Label id="activeDetail1" fontFamily="黑体" verticalCenter="3.5" size="25" y="10" left="15" text="活动内容："/>
+		</e:Group>
+	</e:Group>
+	<ViewModel:CloseBtnVM id="closeBtn" label="按钮" x="507" y="49" skinName="View.CloseBtn"/>
+</e:Skin>

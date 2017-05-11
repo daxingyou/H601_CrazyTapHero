@@ -1,0 +1,28 @@
+{
+    "SubTexture": [
+        {
+            "y": 1,
+            "frameWidth": 75,
+            "x": 78,
+            "frameHeight": 229,
+            "width": 73,
+            "frameY": -55,
+            "height": 174,
+            "name": "B",
+            "frameX": -1
+        },
+        {
+            "y": 1,
+            "frameWidth": 75,
+            "x": 1,
+            "frameHeight": 229,
+            "width": 75,
+            "frameY": 0,
+            "height": 188,
+            "name": "A",
+            "frameX": 0
+        }
+    ],
+    "name": "Tx_baihe_attack",
+    "imagePath": "texture.png"
+}

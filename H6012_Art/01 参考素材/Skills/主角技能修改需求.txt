@@ -1,0 +1,11 @@
+1.输出文件夹：H601_GuLongQunXiaZhuan\H601_DOC\02 Art\02 输出稿\02 切图\IconAtlas
+
+2.同名覆盖active_skill_1.png到active_skill_6.png这几张图。
+
+3.保存格式.png，保留透明通道；
+
+4.制作时按照素材原尺寸，输出的时候按照64*64像素输出，psd原始档案也要留档提交。
+
+5.使用场景说明：这六张技能图片是主角的技能，使用在主页下方，需要把方形的改成圆形，并且通过修饰能融入UI。
+
+ H601_GuLongQunXiaZhuan\H601_DOC\02 Art\02 输出稿\01 效果图\00_1主页.jpg

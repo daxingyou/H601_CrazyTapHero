@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.BtnBottomItem" states="up,down" width="148" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="headGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image id="btnBg" horizontalCenter="0" bottom="0" source="bt_xiacaidan_off" source.down="bt_xiacaidan_on"/>
+		<e:Image id="btnWord" source="zi_zhujue_huang" horizontalCenter="0" bottom="4"/>
+		<e:Image id="btnNewMark" source="icon_xin" bottom="17" left="20"/>												
+	</e:Group>
+</e:Skin>

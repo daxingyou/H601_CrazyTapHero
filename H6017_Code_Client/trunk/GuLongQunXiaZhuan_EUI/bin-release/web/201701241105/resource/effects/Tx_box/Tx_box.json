@@ -1,0 +1,509 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "transform": {
+                        "y": -0.4,
+                        "skX": -118.7042,
+                        "skY": -118.7042,
+                        "x": -25.45
+                    },
+                    "length": 34,
+                    "name": "chibang1",
+                    "parent": "root"
+                },
+                {
+                    "transform": {
+                        "y": 0.45,
+                        "x": 6.15
+                    },
+                    "name": "xiangzi",
+                    "parent": "root"
+                },
+                {
+                    "transform": {
+                        "y": -3.25,
+                        "skX": -61.336,
+                        "skY": -61.336,
+                        "x": 24.2
+                    },
+                    "length": 29,
+                    "name": "chibang2",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "chibang2",
+                                    "transform": {
+                                        "y": -2.3511,
+                                        "skX": 61.336,
+                                        "skY": 61.336,
+                                        "x": 18.3761
+                                    }
+                                }
+                            ],
+                            "name": "chibang2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "xiangzi",
+                                    "transform": {
+                                        "y": -0.45,
+                                        "x": -6.15
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "baoxiangdakai",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "chibang1",
+                                    "transform": {
+                                        "y": 2.145,
+                                        "skX": 118.7042,
+                                        "skY": 118.7042,
+                                        "x": 22.2234
+                                    }
+                                }
+                            ],
+                            "name": "chibang1"
+                        }
+                    ]
+                }
+            ],
+            "name": "Tx_box",
+            "slot": [
+                {
+                    "name": "chibang1",
+                    "parent": "chibang1"
+                },
+                {
+                    "z": 1,
+                    "name": "chibang2",
+                    "parent": "chibang2"
+                },
+                {
+                    "z": 2,
+                    "displayIndex": 1,
+                    "name": "xiangzi",
+                    "parent": "xiangzi"
+                }
+            ],
+            "animation": [
+                {
+                    "frame": [],
+                    "slot": [
+                        {
+                            "frame": [
+                                {
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 16
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [],
+                            "name": "chibang1"
+                        },
+                        {
+                            "frame": [],
+                            "name": "chibang2"
+                        }
+                    ],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 16
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 12.3599,
+                                        "skY": 12.3599
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -2.889,
+                                        "skX": 19.0246,
+                                        "skY": 19.0246
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "skX": 12.3599,
+                                        "skY": 12.3599
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {},
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": 2.0092,
+                                        "skX": 53.0915,
+                                        "skY": 53.0915,
+                                        "x": -7.8668
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "chibang2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -10.145,
+                                        "x": 1.8787
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -14.6347,
+                                        "skX": -59.5028,
+                                        "skY": -59.5028,
+                                        "x": 6.8422
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "y": -10.145,
+                                        "x": 1.8787
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "chibang1"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "name": "boxfly",
+                    "duration": 16
+                },
+                {
+                    "frame": [],
+                    "slot": [
+                        {
+                            "frame": [
+                                {
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 24
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 16
+                                },
+                                {
+                                    "color": {},
+                                    "tweenEasing": 0,
+                                    "duration": 8
+                                },
+                                {
+                                    "color": {
+                                        "aM": 0
+                                    },
+                                    "tweenEasing": null,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "chibang1"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 16
+                                },
+                                {
+                                    "color": {},
+                                    "tweenEasing": 0,
+                                    "duration": 8
+                                },
+                                {
+                                    "color": {
+                                        "aM": 0
+                                    },
+                                    "tweenEasing": null,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "chibang2"
+                        }
+                    ],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 24
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 12.3599,
+                                        "skY": 12.3599
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -2.889,
+                                        "skX": 19.0246,
+                                        "skY": 19.0246
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "skX": 12.3599,
+                                        "skY": 12.3599
+                                    },
+                                    "duration": 8
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {},
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -24.5889,
+                                        "skX": 53.0915,
+                                        "skY": 53.0915,
+                                        "x": 10.4452
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "y": -41.2479,
+                                        "x": 30.8753
+                                    },
+                                    "duration": 8
+                                }
+                            ],
+                            "name": "chibang2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -10.145,
+                                        "x": 1.8787
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "y": -41.2328,
+                                        "skX": -59.5028,
+                                        "skY": -59.5028,
+                                        "x": 2.8673
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "y": -51.3929,
+                                        "x": -12.384
+                                    },
+                                    "duration": 8
+                                }
+                            ],
+                            "name": "chibang1"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "name": "boxdown",
+                    "duration": 24
+                },
+                {
+                    "frame": [],
+                    "slot": [
+                        {
+                            "frame": [
+                                {
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 2
+                                },
+                                {
+                                    "displayIndex": 1,
+                                    "color": {},
+                                    "tweenEasing": null,
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "color": {
+                                        "aM": 0
+                                    },
+                                    "tweenEasing": null,
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "chibang1"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "color": {
+                                        "aM": 0
+                                    },
+                                    "tweenEasing": null,
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "chibang2"
+                        }
+                    ],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "y": -6.117,
+                                        "x": -8.4132
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "xiangzi"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {},
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "chibang2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "y": -10.145,
+                                        "x": 1.8787
+                                    },
+                                    "duration": 2
+                                }
+                            ],
+                            "name": "chibang1"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "name": "openbox",
+                    "duration": 2
+                }
+            ]
+        }
+    ],
+    "name": "Tx_box",
+    "version": "4.0"
+}

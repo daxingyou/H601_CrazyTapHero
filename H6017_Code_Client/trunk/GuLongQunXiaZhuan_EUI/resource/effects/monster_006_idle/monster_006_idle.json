@@ -1,0 +1,19 @@
+{"mc":{
+	"monster_006_idle":{
+		"frameRate":4,
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"983AE89E",
+			"x":441,
+			"y":321,
+			"duration":2
+			}
+			]
+}},
+	"res":{
+		"983AE89E":{"x":1,"y":1,"w":120,"h":149}
+	}}

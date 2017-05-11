@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.RankListView" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+	<e:Group left="0" right="0" height="887" bottom="0">
+		<e:Image source="bg_tankuangda" scale9Grid="36,111,7,670" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:Image source="bg_tankuangda_nei" scale9Grid="12,13,7,6" width="548" horizontalCenter="0" verticalCenter="-226" height="80"/>
+	<e:Image source="bg_tankuangda_nei" horizontalCenter="0" scale9Grid="12,13,7,6" width="548" height="54" verticalCenter="-320" x="10" y="10"/>
+	<e:Image source="bg_tankuangda_nei" horizontalCenter="0" scale9Grid="12,13,7,6" width="548" height="587" x="10" top="283"/>
+	<e:Image source="bg_xiabiaoti" horizontalCenter="0.5" scale9Grid="25,5,2,31" width="271" verticalCenter="-421.5" height="55"/>
+	<e:Image source="paihangbang" y="11" horizontalCenter="0.5"/>
+	<e:Group id="listGroup" left="0" right="0" top="0" bottom="0">
+		<e:Group id="rankScene" left="0" right="0" top="0" bottom="0">
+			<e:Label text="闯关最高前十名" size="22" fontFamily="黑体" horizontalCenter="-195" verticalCenter="-375"/>
+			<e:Group width="542" height="74" horizontalCenter="0" id="playerInfo0" x="10" verticalCenter="-226">
+				<e:Image source="bg_huadongtiao" left="0" right="0" top="0" bottom="0" scale9Grid="10,9,11,12"/>
+				<e:Label horizontalCenter="199" verticalCenter="-17" fontFamily="黑体" textAlign="center" size="20" text="当前排名" lineSpacing="10" x="10" y="10"/>
+				<e:Label lineSpacing="10" text="99999" fontFamily="黑体" textAlign="center" size="20" id="currentRanking0" verticalCenter="13" horizontalCenter="199"/>
+				<e:Label lineSpacing="10" text="9999" fontFamily="黑体" textAlign="center" id="updateRankList0" size="20" horizontalCenter="93" verticalCenter="0"/>
+				<e:Image source="jiantou_xiajiang" id="down0" verticalCenter="0" horizontalCenter="50.5" visible="false"/>
+				<e:Image source="jiantou_shangsheng" id="up0" verticalCenter="0" horizontalCenter="51.5" visible="false"/>
+				<e:Image horizontalCenter="-228.5" id="icon0" source="protagonist" verticalCenter="0.5" width="69" height="69"/>
+				<e:Label text="点击狂魔" fontFamily="黑体" size="22" id="userName0" left="110" verticalCenter="-13"/>
+				<e:Label fontFamily="黑体" size="22" id="detail0" left="110" verticalCenter="13"/>
+			</e:Group>
+			<e:Scroller width="542" height="485" horizontalCenter="0" verticalCenter="80.5">
+				<e:Group id="rankSceneList">
+					<e:layout>
+						<e:VerticalLayout   gap="8"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="dps" right="0" left="0" top="0" bottom="0" x="10" y="10" visible="false">
+			<e:Label verticalCenter="-375" size="22" text="秒伤最高前十名" fontFamily="黑体" horizontalCenter="-195"/>
+			<e:Group width="542" height="74" horizontalCenter="0" id="playerInfo1" x="10" verticalCenter="-226">
+				<e:Image source="bg_huadongtiao" left="0" right="0" top="0" bottom="0" scale9Grid="10,9,11,12"/>
+				<e:Label horizontalCenter="199" verticalCenter="-17" fontFamily="黑体" textAlign="center" size="20" text="当前排名" lineSpacing="10" x="10" y="10"/>
+				<e:Label lineSpacing="10" text="99999" fontFamily="黑体" textAlign="center" size="20" id="currentRanking1" verticalCenter="13" horizontalCenter="199"/>
+				<e:Label lineSpacing="10" text="9999" fontFamily="黑体" textAlign="center" id="updateRankList1" size="20" horizontalCenter="93" verticalCenter="0"/>
+				<e:Image source="jiantou_xiajiang" id="down1" verticalCenter="0" horizontalCenter="50.5" visible="false"/>
+				<e:Image source="jiantou_shangsheng" id="up1" verticalCenter="0" horizontalCenter="51.5" visible="false"/>
+				<e:Image horizontalCenter="-228.5" id="icon1" source="protagonist" verticalCenter="0.5" width="69" height="69"/>
+				<e:Label text="点击狂魔" fontFamily="黑体" size="22" id="userName1" left="110" verticalCenter="-13"/>
+				<e:Label fontFamily="黑体" size="22" id="detail1" left="110" verticalCenter="13"/>
+			</e:Group>
+			<e:Scroller width="542" height="485" horizontalCenter="0" verticalCenter="80.5">
+				<e:Group id="dpsList">
+				<e:layout>
+					<e:VerticalLayout   gap="8"/>
+				</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="accumulate" bottom="0" left="0" top="0" right="0" y="10" x="10" visible="false">
+			<e:Label size="22" text="累积充值最高前十名" fontFamily="黑体" verticalCenter="-375" horizontalCenter="-173"/>
+			<e:Group width="542" height="74" horizontalCenter="0" id="playerInfo2" x="10" verticalCenter="-226">
+				<e:Image source="bg_huadongtiao" left="0" right="0" top="0" bottom="0" scale9Grid="10,9,11,12"/>
+				<e:Label horizontalCenter="199" verticalCenter="-17" fontFamily="黑体" textAlign="center" size="20" text="当前排名" lineSpacing="10" x="10" y="10"/>
+				<e:Label lineSpacing="10" text="99999" fontFamily="黑体" textAlign="center" size="20" id="currentRanking2" verticalCenter="13" horizontalCenter="199"/>
+				<e:Label lineSpacing="10" text="9999" fontFamily="黑体" textAlign="center" id="updateRankList2" size="20" horizontalCenter="93" verticalCenter="0"/>
+				<e:Image source="jiantou_xiajiang" id="down2" verticalCenter="0" horizontalCenter="50.5" visible="false"/>
+				<e:Image source="jiantou_shangsheng" id="up2" verticalCenter="0" horizontalCenter="51.5" visible="false"/>
+				<e:Image horizontalCenter="-228.5" id="icon2" source="protagonist" verticalCenter="0.5" width="69" height="69"/>
+				<e:Label text="点击狂魔" fontFamily="黑体" size="22" id="userName2" left="110" verticalCenter="-13"/>
+				<e:Label fontFamily="黑体" size="22" id="detail2" left="110" verticalCenter="13"/>
+			</e:Group>
+			<e:Scroller width="542" height="485" horizontalCenter="0" verticalCenter="80.5">
+				<e:Group id="accumulateList">
+				<e:layout>
+					<e:VerticalLayout  gap="8"/>
+				</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="btnGroup" height="45" y="106" left="0" right="0">
+		<ViewModel:BtnMagicWeaponDetailVM id="rankSceneBtn" label="按钮" skinName="View.BtnMagicWeaponDetailItem" verticalCenter="0" horizontalCenter="-179.5"/>
+		<ViewModel:BtnMagicWeaponDetailVM id="dpsBtn" skinName="View.BtnMagicWeaponDetailItem" label="按钮" verticalCenter="0" horizontalCenter="0"/>
+		<ViewModel:BtnMagicWeaponDetailVM id="accumulateBtn" label="按钮" skinName="View.BtnMagicWeaponDetailItem" verticalCenter="0" horizontalCenter="180.5"/>
+	</e:Group>
+	<ViewModel:CloseBtnVM id="closeBtn" label="按钮" skinName="View.CloseBtn" horizontalCenter="270.5" verticalCenter="-420.5"/>
+</e:Skin>

@@ -1,0 +1,260 @@
+{
+    "frameRate": 24,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "transform": {
+                        "y": -41.1706,
+                        "scX": 0.5,
+                        "scY": 0.6
+                    },
+                    "name": "all",
+                    "parent": "root"
+                },
+                {
+                    "transform": {
+                        "y": 9.9563
+                    },
+                    "name": "A",
+                    "parent": "all"
+                },
+                {
+                    "transform": {
+                        "y": 21.7134
+                    },
+                    "name": "B",
+                    "parent": "all"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "B",
+                    "parent": "B"
+                },
+                {
+                    "z": 1,
+                    "name": "A",
+                    "parent": "A"
+                }
+            ],
+            "name": "Tx_baihe_attack",
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "B",
+                                    "transform": {
+                                        "y": 54.6474
+                                    }
+                                }
+                            ],
+                            "name": "B"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "A",
+                                    "transform": {
+                                        "skX": 0.6901,
+                                        "y": 70.3357,
+                                        "skY": 0.6901
+                                    }
+                                }
+                            ],
+                            "name": "A"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 12,
+                    "frame": [
+                        {
+                            "tweenEasing": null,
+                            "duration": 10
+                        },
+                        {
+                            "duration": 0,
+                            "tweenEasing": null,
+                            "event": "baihe"
+                        }
+                    ],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": null,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": null,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "A"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 12,
+                                    "tweenEasing": null,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "B"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "curve": [
+                                        0.406,
+                                        -0.001,
+                                        1,
+                                        1
+                                    ],
+                                    "transform": {
+                                        "skX": 84,
+                                        "y": 3.9337,
+                                        "skY": 84,
+                                        "x": -44.4475
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "transform": {
+                                        "skX": 84,
+                                        "y": -28.3286,
+                                        "skY": 84,
+                                        "x": 183.9992
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "tweenEasing": null,
+                                    "transform": {
+                                        "skX": 84,
+                                        "y": -33.2119,
+                                        "skY": 84,
+                                        "x": 217.4692
+                                    }
+                                }
+                            ],
+                            "name": "all"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "slot": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 50
+                                    }
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "duration": 0,
+                                    "tweenEasing": null,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "name": "A"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "duration": 0,
+                                    "tweenEasing": null,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                }
+                            ],
+                            "name": "B"
+                        }
+                    ],
+                    "name": "Tx_baihe_attack"
+                }
+            ]
+        }
+    ],
+    "name": "Tx_baihe_attack",
+    "version": "4.0",
+    "isGlobal": 0
+}

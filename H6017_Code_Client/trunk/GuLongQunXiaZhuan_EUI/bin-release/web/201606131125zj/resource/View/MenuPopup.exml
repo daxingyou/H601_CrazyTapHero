@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.MenuPopup" width="600" height="335" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="menuListGroup" left="0" right="0" bottom="0" top="0">
+		<e:Group id="bgGroup" left="0" right="0" top="0" bottom="0">
+			<e:Image id="menuBg" left="0" right="0" scale9Grid="14,19,4,4" top="10" source="bg_tankuangzhuye_shangbian" height="37"/>
+			<e:Group left="0" right="0" height="290" bottom="0">
+				<e:Image source="bg_tankuangzhuye_zhongjian" fillMode="repeat" y="0" blendMode="normal" height="290"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="menuTitle" height="47" width="409" horizontalCenter="0.5" top="-2" source="bg_xiabiaoti" scale9Grid="23,12,2,26"/>
+		<e:Button id="closeBtn" height="30" width="47" verticalCenter="-135.5" horizontalCenter="253.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="shousuo" source.down="shousuo" source.disabled="shousuo"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="protagonistPopGroup" height="46" width="357" top="0" horizontalCenter="0">
+			<e:Image source="dianjishanghai" verticalCenter="-4" horizontalCenter="-64"/>
+			<e:Label id="clickDamageLabel" text="999.66M" size="26" fontFamily="黑体" verticalCenter="-4" left="190"/>
+			<e:Scroller id="protagonistScroller" skinName="skins.ScrollerSkin" horizontalCenter="0" verticalCenter="145" width="580">
+				<e:Group id="protagonistGroup" height="235" width="559" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="bosomFriendPopGroup" top="0" width="357" height="46" horizontalCenter="0" x="10" y="10">
+			<e:Image verticalCenter="-4" horizontalCenter="-64" source="miaoshang"/>
+			<e:Label id="dpsLabel" verticalCenter="-4" text="999.66M" fontFamily="黑体" size="26" left="190"/>
+			<e:Scroller id="bosomFriendScroller" skinName="skins.ScrollerSkin" width="580" height="235" horizontalCenter="0" verticalCenter="145">
+				<e:Group id="bosomFriendGroup" width="559" height="235" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="6" verticalAlign="top"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="artifactPopGroup" y="20" top="0" x="20" width="357" height="46" horizontalCenter="0">
+			<e:Image verticalCenter="-3" horizontalCenter="-123" source="suoyoushanghai"/>
+			<e:Label id="damageBonusLabel" verticalCenter="-3" text="+999.99%" fontFamily="黑体" size="26" left="120"/>
+			<e:Label id="jewelLabel" verticalCenter="-3" text="999" fontFamily="黑体" size="26" y="10" left="295"/>
+			<e:Image source="icon_lingshi" x="257" y="7" width="26" height="25"/>
+			<e:Scroller id="artifactScroller" skinName="skins.ScrollerSkin" width="580" height="235" horizontalCenter="0" verticalCenter="145">
+				<e:Group id="artifactGroup" width="559" height="235" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="6" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="shopPopGroup" top="0" width="357" height="46" horizontalCenter="0" x="10" y="10">
+			<e:Image verticalCenter="-1" horizontalCenter="-31.5" source="yuanbao"/>
+			<e:Label id="treasureLabel" verticalCenter="-1" left="175" text="999.66M" fontFamily="黑体" size="26"/>
+			<e:Scroller id="shopScroller" verticalCenter="145" skinName="skins.ScrollerSkin" width="580" horizontalCenter="0">
+				<e:Group id="shopGroup" cacheAsBitmap="true" width="559" height="235">
+					<e:layout>
+						<e:VerticalLayout gap="6" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>	
+</e:Skin>

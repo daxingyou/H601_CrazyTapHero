@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.DailyRechargeItem" width="564" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" bottom="0" top="0" source="bg_huadongtiao" scale9Grid="10,9,10,11" right="0"/>
+		<e:Image id="finish" source="yiwancheng" x="434" verticalCenter="0.5" visible="false"/>
+		<ViewModel:BtnShareVM id="rewardBtn" label="按钮" skinName="View.BtnShareItem" verticalCenter="-10" width="133" x="414"/>
+		<e:Label id="description" text="连续充值9天可领取" size="20" width="113" height="42" textAlign="center" horizontalCenter="-212" fontFamily="黑体" lineSpacing="3" verticalCenter="0"/>
+		<e:Group id="item0" height="62" width="62" horizontalCenter="-93" verticalCenter="0">
+			<e:Image id="icon0" source="magic_weapon_5" left="0" right="0" top="0" bottom="0"/>
+			<e:Group height="19" verticalCenter="21.5" right="0">
+				<e:Image source="bg_zengsongshuliang" bottom="0" right="0" left="0" top="0" scale9Grid="5,5,14,7"/>
+				<e:Label id="number0" fontFamily="黑体" textAlign="center" lineSpacing="3" size="13" left="3" right="5" verticalCenter="-1" text="2"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="item1" width="62" height="62" horizontalCenter="-13" verticalCenter="0">
+			<e:Image source="magic_weapon_5" verticalCenter="0" horizontalCenter="0" id="icon1"/>
+			<e:Group verticalCenter="21.5" height="19" right="0">
+				<e:Image source="bg_zengsongshuliang" left="0" right="0" top="0" scale9Grid="5,5,14,7" bottom="0"/>
+				<e:Label id="number1" lineSpacing="3" verticalCenter="-1" left="3" text="888" fontFamily="黑体" textAlign="center" right="5" size="13"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

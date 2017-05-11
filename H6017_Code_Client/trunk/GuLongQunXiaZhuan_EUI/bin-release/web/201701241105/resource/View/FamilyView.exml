@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.FamilyView" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maskBlackFamily"  width="100%" height="100%" source="mask_black" alpha="0" horizontalCenter="0" verticalCenter="0" scale9Grid="1,1,1,1"/>
+	<e:Group id="window" width="600" height="900" y="-550">
+		<e:Group height="764" width="600" horizontalCenter="0" verticalCenter="-15">
+			<e:Image source="bg_tankuangda" left="0" right="0" top="0" bottom="0" scale9Grid="39,111,1,670"/>
+			<e:Image source="bg_tankuangda_nei" top="86" scale9Grid="12,13,5,4" width="549" height="645" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Image source="bg_xiabiaoti" scale9Grid="24,5,4,33" width="272" height="47" horizontalCenter="0" verticalCenter="-388.5"/>
+	    <e:Image source="jiazu" horizontalCenter="0" verticalCenter="-393"/>
+		<e:Scroller width="542" height="636" horizontalCenter="0.5" top="143">
+			<e:Group id="familyGroup">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="6"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	    <e:Label  text="家族属性永久有效！" size="30" fontFamily="黑体" horizontalCenter="11" y="94" textAlign="left" textColor="0xFF6D00"/>
+		<e:Button id="closeBtn" skinName="View.CloseBtn" x="511" y="17"/>
+		
+	</e:Group>
+	
+</e:Skin>

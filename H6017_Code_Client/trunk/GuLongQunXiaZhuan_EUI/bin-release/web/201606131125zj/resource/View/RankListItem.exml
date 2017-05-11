@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.RankListItem" width="564" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="bg_huadongtiao" scale9Grid="9,9,12,11"/>
+		<e:Label lineSpacing="10" text="当前排名999" fontFamily="黑体" textAlign="center" width="80" y="16" size="20" horizontalCenter="140" id="currentRanking" x="10" visible="false"/>
+		<e:Label id="updateRankList" lineSpacing="10" text="0" fontFamily="黑体" textAlign="center" width="22" y="31" size="20" x="527" visible="false"/>
+		<e:Image source="jiantou_xiajiang" y="22" x="497" id="down" visible="false"/>
+		<e:Image source="jiantou_shangsheng" y="23" x="498" id="up" visible="false"/>
+		<e:Image id="icon" horizontalCenter="-233" source="protagonist" verticalCenter="0"/>
+		<e:Label id="userName" text="点击狂魔" size="20" fontFamily="黑体" left="90" verticalCenter="-16"/>
+		<e:Label id="detail" text="完成关卡：999.99aa" fontFamily="黑体" size="20" verticalCenter="12" left="90"/>
+		<e:Group id="rankingGroup" width="55" height="55" x="445" y="10" visible="false">
+			<e:Image id="rankingPic" source="paihang_mingci" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="rankingNum" text="3" textColor="0x000000" size="40" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image id="first" source="icon_1st" x="434" y="4" visible="false"/>
+		<e:Image id="second" source="icon_2st" x="434" y="4" visible="false"/>
+		<e:Image id="third" source="icon_3st" x="434" y="4" visible="false"/>
+	</e:Group>
+</e:Skin>

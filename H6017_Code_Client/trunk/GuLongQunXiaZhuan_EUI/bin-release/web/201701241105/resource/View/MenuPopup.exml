@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.MenuPopup" width="600" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="menuListGroup" left="0" right="0" bottom="0" top="0">
+		<e:Group id="bgGroup" left="0" right="0" top="0" bottom="0">
+			<e:Image id="menuBg" left="0" right="0" top="0" source="bg_tankuangzhuye" bottom="0" scale9Grid="38,81,5,159"/>
+			<e:Image source="bg_tankuangzhuye_xuanxiang" scale9Grid="15,14,4,3" width="550" horizontalCenter="0" x="10" height="47" bottom="0"/>
+			<e:Image source="bg_tankuangzhuye_nei" height="328" horizontalCenter="0" width="550" top="40" scale9Grid="94,63,564,6"/>
+		</e:Group>
+		<e:Image id="menuTitle" height="47" width="409" horizontalCenter="0.5" top="-2" source="bg_xiabiaoti" scale9Grid="23,12,2,26" visible="false"/>
+		<e:Button id="closeBtn" height="30" width="47" verticalCenter="-143" horizontalCenter="233.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="shousuo" source.down="shousuo" source.disabled="shousuo"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="protagonistPopGroup" height="46" width="357" top="0" horizontalCenter="0">
+			<e:Image source="dianjishanghai" verticalCenter="46" horizontalCenter="-204"/>
+			<e:Label id="clickDamageLabel" text="999.66M" size="26" fontFamily="黑体" verticalCenter="46" left="70"/>
+			<e:Scroller id="protagonistScroller" skinName="skins.ScrollerSkin" width="542" verticalCenter="208.5" horizontalCenter="0.5">
+				<e:Group id="protagonistGroup" height="255" width="559" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="bosomFriendPopGroup" top="0" width="357" height="46" horizontalCenter="0" x="10" y="10">
+			<e:Image verticalCenter="46" horizontalCenter="-230.5" source="miaoshang"/>
+			<e:Label id="dpsLabel" verticalCenter="46" text="999.66M" fontFamily="黑体" size="26" left="70"/>
+			<e:Scroller id="bosomFriendScroller" skinName="skins.ScrollerSkin" width="542" height="255" horizontalCenter="0.5" verticalCenter="208.5">
+				<e:Group id="bosomFriendGroup" width="559" height="255" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="6" verticalAlign="top"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="artifactPopGroup" y="20" top="0" x="20" width="357" height="46" horizontalCenter="0">
+			<e:Image verticalCenter="48" horizontalCenter="-204" source="suoyoushanghai"/>
+			<e:Label id="damageBonusLabel" verticalCenter="46" text="+999.99%" fontFamily="黑体" size="26" left="70"/>
+			<e:Label id="jewelLabel" text="999" fontFamily="黑体" size="26" left="285" verticalCenter="43"/>
+			<e:Image source="icon_lingshi" width="26" height="25" horizontalCenter="81.5" verticalCenter="43.5"/>
+			<e:Scroller id="artifactScroller" skinName="skins.ScrollerSkin" width="542" height="255" horizontalCenter="0.5" verticalCenter="208.5">
+				<e:Group id="artifactGroup" width="559" height="255" cacheAsBitmap="true">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="6" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="shopPopGroup" top="0" width="357" height="46" horizontalCenter="0" x="10" y="10">
+			<e:Image source="yuanbao" x="99" y="55"/>
+			<e:Label id="treasureLabel" text="999.66M" fontFamily="黑体" size="26" x="145" y="54"/>
+			<e:Scroller id="shopScroller" skinName="skins.ScrollerSkin" width="542" horizontalCenter="0.5" verticalCenter="208.5">
+				<e:Group id="shopGroup" cacheAsBitmap="true" width="559" height="255">
+					<e:layout>
+						<e:VerticalLayout gap="6" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>	
+</e:Skin>

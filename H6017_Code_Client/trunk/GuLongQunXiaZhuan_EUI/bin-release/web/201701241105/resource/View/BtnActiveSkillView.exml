@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.BtnActiveSkillView" states="locked,disabled,enabled,during" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="skillState" width="80" height="80" horizontalCenter="0" verticalCenter="0" >
+		<e:Image id="skillIcon" width="72" horizontalCenter="0" verticalCenter="0" height="72" alpha.locked=".4" includeIn="disabled,locked,enabled,during" source="active_skill_1"/>
+		<e:Image source="icon_jinengCD" left="0" right="0" top="0" bottom="0" includeIn="during"/>
+	  <e:Image source="bg_jineng" source.disabled="icon_jinengCD" source.locked="icon_jinengsuo" width="80" height="80"  verticalCenter="0" horizontalCenter="0" touchEnabled.enabled="false"/> 
+	  <e:Label id="counterCD" y="40" text="99:99" bold="true" fontFamily="黑体" x="40" horizontalCenter="4" verticalCenter="0" size="22" width="62" visible.disabled="true"  visible.locked="false" visible.enabled="false" text.disabled=" " text.during=" "/>
+    </e:Group>
+</e:Skin>

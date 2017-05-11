@@ -1,0 +1,214 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "animation": [
+                {
+                    "duration": 14,
+                    "slot": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "color": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 1,
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 2,
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 3,
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 4,
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 5,
+                                    "duration": 1,
+                                    "tweenEasing": 0,
+                                    "color": {}
+                                },
+                                {
+                                    "displayIndex": 6,
+                                    "duration": 0,
+                                    "tweenEasing": null,
+                                    "color": {}
+                                }
+                            ],
+                            "name": "a0001"
+                        }
+                    ],
+                    "frame": [
+                        {
+                            "tweenEasing": null,
+                            "duration": 10
+                        },
+                        {
+                            "duration": 0,
+                            "event": "bingyi",
+                            "tweenEasing": null
+                        }
+                    ],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 14,
+                                    "transform": {},
+                                    "tweenEasing": null
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 9,
+                                    "curve": [
+                                        0.48,
+                                        -0.001,
+                                        1,
+                                        1
+                                    ],
+                                    "transform": {
+                                        "scY": 0.7368,
+                                        "skX": -9.5,
+                                        "skY": -9.5,
+                                        "x": -188
+                                    }
+                                },
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": -60.1962,
+                                        "scY": 0.7368,
+                                        "skX": -9.5,
+                                        "skY": -9.5,
+                                        "x": 133.2308
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": -73.5731,
+                                        "scY": 0.7368,
+                                        "skX": -9.5,
+                                        "skY": -9.5,
+                                        "x": 204.6154
+                                    },
+                                    "tweenEasing": null
+                                }
+                            ],
+                            "name": "bone"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "name": "Tx_bingyi_attack"
+                }
+            ],
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "transform": {
+                        "scY": 0.95
+                    },
+                    "name": "bone",
+                    "parent": "root"
+                }
+            ],
+            "name": "Tx_bingyi_attack",
+            "slot": [
+                {
+                    "name": "a0001",
+                    "parent": "bone"
+                }
+            ],
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0001",
+                                    "transform": {
+                                        "skX": 0.9607,
+                                        "skY": 0.9607
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0002",
+                                    "transform": {}
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0003",
+                                    "transform": {}
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0004",
+                                    "transform": {}
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0005",
+                                    "transform": {}
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0006",
+                                    "transform": {}
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "bingyi/a0007",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "a0001"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Tx_bingyi_attack",
+    "version": "4.0"
+}

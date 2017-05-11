@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.BtnRunItem"
+        states="up,down,upAndSelected,downAndSelected" width="75"
+        height="31" currentState="down" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="bt_tiaozhan" includeIn="downAndSelected" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="bt_taopao" includeIn="upAndSelected" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="bt_taopao" includeIn="down" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="bt_tiaozhan" includeIn="up" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

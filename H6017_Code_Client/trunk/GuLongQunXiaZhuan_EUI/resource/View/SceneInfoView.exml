@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.SceneInfoView" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*"  >
+	<e:Group left="0" right="0" top="0" bottom="0" touchEnabled="false">
+		<e:Group id="currentInfo" left="0" right="0" top="0" bottom="0" touchEnabled="false">
+			<e:Group id="bossInfoGroup" touchEnabled="false" left="0" right="0" top="0" bottom="0">
+				<e:Label id="countTimeLabel" text="20.6" size="20" fontFamily="黑体" textColor="0xFF5900" x="121" y="143"/>
+				<ViewModel:BtnRunItemVM id="bossBtn" label="切换按钮" skinName="View.BtnRunItem" x="103" y="111"/>
+				<e:Image id="countTimeImage" scale9Grid="1,1,6,3" maxWidth="227" minWidth="0" width="220" source="daojishi" left="190" verticalCenter="-302.5"/>
+			</e:Group>
+			<e:Image id="swardIcon" source="Icon_jian" x="122" y="102"/>
+			<e:Label id="sceneNumLabel" text="1/10" left="184" verticalCenter="-346" size="24"/>
+		</e:Group>
+		<e:Group right="0" left="0" top="0" touchEnabled="false" bottom="0" id="cBossInfoGroup" x="10" y="10" visible="false">
+			<e:Label y="143" textColor="0xFF5900" text="20.6" fontFamily="黑体" x="121" size="20" id="cCountTimeLabel"/>
+			<ViewModel:BtnRunItemVM skinName="View.BtnRunItem" label="切换按钮" y="111" id="cBossBtn" x="103" xmlns:ViewModel="ViewModel.*"/>
+			<e:Image source="daojishi" left="190" minWidth="0" scale9Grid="1,1,6,3" width="220" maxWidth="227" verticalCenter="-302.5" id="cCountTimeImage"/>
+		</e:Group>
+		<e:Group id="sceneInfoGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false">
+			<e:Image id="preImage" width="27" height="28" source="guanshu_0" horizontalCenter="150.5" verticalCenter="-316"/>
+			<e:Image id="currentImage" source="guanshu_1" horizontalCenter="190.5" verticalCenter="-324.5"/>
+			<e:Image id="nextImage" source="guanshu_2" width="27" height="28" horizontalCenter="230.5" verticalCenter="-316"/>
+			<e:Label id="currentRound" text="1" fontFamily="黑体" size="24" stroke="2" background="false" horizontalCenter="191" verticalCenter="-324"/>
+			<e:Label id="preRound" text="0" fontFamily="黑体" stroke="2" size="14" horizontalCenter="150.5" verticalCenter="-316"/>
+			<e:Label id="nextRound" text="2" fontFamily="黑体" stroke="2" size="14" horizontalCenter="230.5" verticalCenter="-316"/>
+			<e:BitmapLabel id="charMoney" left="262" verticalCenter="-292"/>
+			<ViewModel:ProgressHp id="bossHp" skinName="View.ProgressHp" width="227" height="19" x="188" y="123"/>
+			<e:Label id="bossHpLabel" fontFamily="黑体" stroke="0" size="16" background="false" right="196" verticalCenter="-317"/>
+			<e:Image id="gold" source="icon_jinbi" horizontalCenter="-59.5" verticalCenter="-283.5" visible="false"/>
+		</e:Group>
+		<ViewModel:CloseBtnVM id="giftBag" label="按钮" btnImgSource="icon_libao" skinName="View.CloseBtn" horizontalCenter="-252.5" verticalCenter="-260.5" visible="false"/>
+		<ViewModel:CloseBtnVM id="offLineReward" skinName="View.CloseBtn" btnImgSource="" label="按钮" horizontalCenter="-252.5" x="10" verticalCenter="-185.5"/>
+	</e:Group>
+</e:Skin>

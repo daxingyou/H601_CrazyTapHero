@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.AchievementView" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="window" left="0" right="0" top="0" bottom="0">
+		<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+		<e:Group left="0" right="0" height="887" bottom="0">
+			<e:Image source="bg_tankuangda_zhongjian" y="36" horizontalCenter="0" fillMode="repeat" height="803"/>
+			<e:Image source="bg_tankuangda_shangbian" horizontalCenter="0"/>
+			<e:Image source="bg_tankuangda_xiabian" bottom="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image source="bg_xiabiaoti" y="0" scale9Grid="25,2,2,36" width="274" horizontalCenter="0"/>
+		<ViewModel:CloseBtnVM id="closeBtn" label="按钮" x="541" skinName="View.CloseBtn" y="1"/>
+		<e:Image source="chengjiu" y="9" horizontalCenter="0"/>
+		<e:Label text="达成目标获取奖励！" size="30" fontFamily="黑体" horizontalCenter="-124" verticalCenter="-359"/>
+		<e:Image source="yuanbao" horizontalCenter="152" verticalCenter="-359"/>
+		<e:Label id="earnMoney" text="9999" fontFamily="黑体" left="480" verticalCenter="-359"/>
+		<e:Scroller width="564" height="688" horizontalCenter="0" verticalCenter="25.5">
+			<e:Group id="listGroup" width="564" cacheAsBitmap="true">
+				<e:layout>
+					<e:VerticalLayout   gap="12"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

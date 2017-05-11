@@ -1,0 +1,183 @@
+{
+    "frameRate": 12,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "lixianjiangli",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "lixianjiangli"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "icon_lixianjiangli02",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "icon_lixianjiangli02"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "type": "image",
+                                    "name": "icon_lixianjiangli01",
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "icon_lixianjiangli01"
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "frame": [],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "duration": 16,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "duration": 8,
+                                    "transform": {}
+                                },
+                                {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ],
+                                    "duration": 8,
+                                    "transform": {
+                                        "scX": 1.201,
+                                        "scY": 1.201
+                                    }
+                                },
+                                {
+                                    "tweenEasing": null,
+                                    "duration": 0,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "box"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "duration": 16,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "dipan"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": null,
+                                    "duration": 16,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "zi"
+                        }
+                    ],
+                    "playTimes": 0,
+                    "duration": 16,
+                    "ffd": [],
+                    "name": "newAnimation",
+                    "slot": []
+                }
+            ],
+            "type": "Armature",
+            "name": "armature",
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "transform": {
+                        "y": 1.2779,
+                        "x": -0.24
+                    },
+                    "name": "box",
+                    "parent": "root"
+                },
+                {
+                    "transform": {},
+                    "name": "dipan",
+                    "parent": "root"
+                },
+                {
+                    "transform": {
+                        "y": 25.883,
+                        "x": -1.4137
+                    },
+                    "name": "zi",
+                    "parent": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "icon_lixianjiangli02",
+                    "parent": "dipan",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "name": "icon_lixianjiangli01",
+                    "parent": "box",
+                    "color": {}
+                },
+                {
+                    "z": 2,
+                    "name": "lixianjiangli",
+                    "parent": "zi",
+                    "color": {}
+                }
+            ],
+            "aabb": {
+                "width": 78,
+                "y": -39,
+                "height": 78,
+                "x": -39
+            },
+            "frameRate": 12,
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "newAnimation"
+                }
+            ],
+            "ik": []
+        }
+    ],
+    "name": "Tx_lixianjiangli",
+    "version": "5.0"
+}

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.DailyRechargeItem" width="538" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" bottom="0" top="0" right="0" source="huadongtiao_meirichongzhi" scale9Grid="126,53,392,18"/>
+		<e:Image id="finish" source="yiwancheng" x="434" verticalCenter="0.5" visible="false"/>
+		<ViewModel:BtnShareVM id="rewardBtn" label="按钮" skinName="View.BtnShareItem" verticalCenter="-9.5" width="133" x="384"/>
+		<e:Label id="description" text="连续充值9天，可领取：" size="18" width="231" height="22" textAlign="left" horizontalCenter="-136.5" fontFamily="黑体" lineSpacing="3" verticalCenter="-22.5" textColor="0xFEDE33"/>
+		<e:Group id="item0" height="62" width="62" horizontalCenter="-200" verticalCenter="10.5">
+			<e:Image id="icon0" source="MainGame_json.icon_jinbi" width="29" height="29" x="9" y="9"/>
+			<e:Label id="number0" fontFamily="黑体" textAlign="center" lineSpacing="3" size="16" text="2" horizontalCenter="-7" verticalCenter="17"/>
+			<e:Group height="19" verticalCenter="21.5" right="0">
+				<e:Image source="bg_zengsongshuliang" bottom="0" right="0" left="0" top="0" scale9Grid="5,5,14,7" visible="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group height="62" id="item1" width="62" horizontalCenter="-123" verticalCenter="10.5" x="10" y="10">
+			<e:Image source="MainGame_json.icon_jinbi" height="29" width="29" id="icon1" x="10" y="9"/>
+			<e:Label id="number1" text="2" fontFamily="黑体" textAlign="center" lineSpacing="3" size="16" horizontalCenter="-6" verticalCenter="17"/>
+			<e:Group right="0" height="19" verticalCenter="21.5">
+				<e:Image source="bg_zengsongshuliang" left="0" right="0" top="0" scale9Grid="5,5,14,7" bottom="0" visible="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

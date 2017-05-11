@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.BtnActivityView_tw" width="80" height="220" xmlns:e="http://ns.egret.com/eui" xmlns:ViewModel="ViewModel.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="activityGroup" left="0" right="0" top="0" bottom="0">
+		<ViewModel:BtnActivityItemVM id="accumulateRecharge" label="按钮" x="13" skinName="View.BtnActivityItem" btnIconSource="Icon_leichongjiangli"/>
+		<ViewModel:BtnActivityItemVM id="getRewards" y="55" label="按钮" skinName="View.BtnActivityItem" x="13" btnIconSource="Icon_lingqujiangli"/>
+		<ViewModel:BtnActivityItemVM id="dailyRecharge" y="109" label="按钮" skinName="View.BtnActivityItem" x="13" btnIconSource="Icon_meirichongzhi"/>
+		<ViewModel:BtnActivityItemVM id="dailyChallenge" label="按钮" skinName="View.BtnActivityItem" x="13" y="164" btnIconSource="Icon_meiritiaozhan"/>
+	</e:Group>
+</e:Skin>

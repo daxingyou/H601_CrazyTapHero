@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.ShopItem" width="562" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="bg_huadongtiao" scale9Grid="9,9,12,11"/>
+		<e:Group id="goods" top="0" bottom="0" width="400" left="0" touchEnabled="false">
+			<e:Image id="goodsIcon" height="66" width="68" horizontalCenter="-152" touchEnabled="false" source="skill_01" verticalCenter="0"/>
+			<e:Label id="goodsName" text="海量铜币" size="20" fontFamily="黑体" touchEnabled="false" y="15" left="94"/>
+			<e:Label id="goodsLevel" left="334" text="Lv.1" fontFamily="黑体" size="20" touchEnabled="false" x="10" verticalCenter="-22" visible="false"/>
+			<e:Label id="goodsDesOne" fontFamily="黑体" size="20" wordWrap="true" touchEnabled="false" text="保护挚友不会被" left="94" verticalCenter="13" right="1"/>
+			<e:Label id="goodsDes" left="94" size="20" text="保护挚友不会被" fontFamily="黑体" width="305" touchEnabled="false" wordWrap="true" x="10" verticalCenter="0" visible="false"/>
+			<e:Label id="costRmb" size="20" fontFamily="黑体" verticalCenter="0" horizontalCenter="161"/>
+		</e:Group>
+		<ViewModel:BtnShareVM id="goodsBtn" label="按钮" width="136" height="66" horizontalCenter="200" skinName="View.BtnShareItem"/>
+		
+	</e:Group>
+</e:Skin>

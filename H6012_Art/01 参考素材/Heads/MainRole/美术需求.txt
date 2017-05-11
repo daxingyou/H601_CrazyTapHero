@@ -1,0 +1,15 @@
+1.画布开512x512的分辨率完整画幅，存psd源档。
+
+2.输出切图64x64
+
+3.输出格式带透明通道，小写.png
+
+4.输出命名：
+  protagonist：曹操
+  skill_01: 夏侯惇
+  skill_02: 郭嘉
+  skill_03: 曹仁
+  skill_04: 许褚
+  skill_05: 荀彧
+
+5.输出地址：\\192.168.1.88\svn\H601_GuLongQunXiaZhuan\H601_DOC\02 Art\01 设计源稿\04 参考图\Heads\MainRole

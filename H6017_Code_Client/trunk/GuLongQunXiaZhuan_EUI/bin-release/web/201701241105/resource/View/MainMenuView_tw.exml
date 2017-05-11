@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.MainMenuView_tw" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*">
+
+	<e:Group id="mainInfoGroup" bottom="0" right="0" left="0" top="0" touchEnabled="false">
+		<ViewModel:MainInfoVM id="mainInfo" left="0" right="0" top="0" bottom="0" skinName="View.MainInfoView_tw"/>
+	</e:Group>
+	<e:Group id="menuPopupGroup" left="0" right="0" bottom="0" top="564" touchEnabled="false">
+		<ViewModel:MenuPopupVM id="menuPopup" skinName="View.MenuPopup" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<ViewModel:BtnActivityVM id="activity" x="465" y="-166" alpha="0" skinName="View.BtnActivityView_tw"/>
+	<ViewModel:BtnTopVM id="btnTop" horizontalCenter="0" skinName="View.BtnTopView" top="0"/>
+	<ViewModel:BtnBottomVM id="btnBottom" bottom="0" horizontalCenter="0" skinName="View.BtnBottomView"/>
+	<e:Group id="flyBoxGroup" height="25" verticalCenter="86.5" horizontalCenter="0.5" visible="false">
+		<e:Image source="bg_diaoluo" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="flyBoxIcon" verticalCenter="0" width="34" height="34"/>
+		<e:Label id="flyBoxDescription" size="16" right="0" left="39" verticalCenter="0.5" fontFamily="黑体"/>
+	</e:Group>
+	<e:Group right="0" left="0" top="0" bottom="0" id="offLineGroup" x="10" y="10" visible="false">
+		<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+		<e:Label horizontalCenter="4" textColor="0x9D9D9D" text="網絡中斷請稍後嘗試。。。" verticalCenter="-50" fontFamily="黑体"/>
+	</e:Group>
+
+
+</e:Skin>

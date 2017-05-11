@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="View.DailyChallenge_tw" width="600" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ViewModel="ViewModel.*">
+	<e:Image source="mask_black" scale9Grid="1,1,1,1" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+	<e:Group height="568" width="510" horizontalCenter="0" y="60">
+		<e:Group left="0" top="0" right="0" height="588">
+			<e:Image source="bg_tankuangxiao_shangbian" horizontalCenter="0"/>
+			<e:Image source="bg_tankuangxiao_zhongjian" horizontalCenter="0" y="57" fillMode="repeat" height="479"/>
+			<e:Image source="bg_tankuangxiao_xiabian" bottom="3" horizontalCenter="0"/>
+			<e:Image source="bg_xiabiaoti" horizontalCenter="0" scale9Grid="24,5,4,32" width="272" y="-9"/>
+			<e:Image source="meiritiaozhan" horizontalCenter="0.5" y="-2"/>
+			<ViewModel:CloseBtnVM id="closeBtn" label="按钮" x="468" y="-13" skinName="View.CloseBtn"/>
+			<e:Label id="accumulateLogin" text="标签" size="20" fontFamily="黑体" horizontalCenter="0" verticalCenter="-235"/>
+		</e:Group>
+		<ViewModel:DailyChallengeItemVM id="list0" skinName="View.DailyChallengeItem" horizontalCenter="-119" verticalCenter="-126"/>
+		<ViewModel:DailyChallengeItemVM id="list1" skinName="View.DailyChallengeItem" horizontalCenter="122" verticalCenter="-126"/>
+		<ViewModel:DailyChallengeItemVM id="list2" skinName="View.DailyChallengeItem" horizontalCenter="-119" verticalCenter="34"/>
+		<ViewModel:DailyChallengeItemVM id="list3" skinName="View.DailyChallengeItem" verticalCenter="34" horizontalCenter="122"/>
+		<ViewModel:DailyChallengeItemVM skinName="View.DailyChallengeItem" id="list4" verticalCenter="194" horizontalCenter="-119"/>
+		<e:Group height="144" width="204" horizontalCenter="122" verticalCenter="194">
+			<e:Image left="0" right="0" top="0" bottom="0" source="bg_tankuang_neihuabian" scale9Grid="29,32,14,11"/>
+			<ViewModel:BtnShareVM id="startChanllenge" label="按钮" skinName="View.BtnShareItem" horizontalCenter="2.5" verticalCenter="-28"/>
+			<e:Label text="挑戰倒計時" fontFamily="黑体" size="18" horizontalCenter="0" verticalCenter="23"/>
+			<e:Label id="countDown" size="18" text="99:58:56" fontFamily="黑体" horizontalCenter="0" verticalCenter="46"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
